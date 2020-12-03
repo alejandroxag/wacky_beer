@@ -9,7 +9,7 @@ setup(
     # Needed to actually package something
     packages=['wacky_beer'],
     # Needed for dependencies
-    install_requires=['setuptools'],
+    install_requires=[],
     # *strongly* suggested for sharing
     version='0.1',
     # The license can be anything you like
