@@ -24,6 +24,7 @@ def bs_soup(url):
         Returns:
         (str, bs4.element.Tag): tuple containing the id and soup corresponding to the url's beer style.
     """
+    import json
     try:
         soup = BeautifulSoup(requests.get(url).content, 'html.parser')
         bs_id = json.loads(soup.find(id = 'wpp-json').get_text())['ID']
