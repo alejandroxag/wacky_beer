@@ -1,8 +1,0 @@
-setup.py
-wacky_beer/__init__.py
-wacky_beer/style_scrape.py
-wacy_beer.egg-info/PKG-INFO
-wacy_beer.egg-info/SOURCES.txt
-wacy_beer.egg-info/dependency_links.txt
-wacy_beer.egg-info/requires.txt
-wacy_beer.egg-info/top_level.txt

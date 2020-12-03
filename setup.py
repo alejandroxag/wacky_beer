@@ -2,8 +2,8 @@ from setuptools import setup
 
 setup(
     # Needed to silence warnings (and to be a worthwhile package)
-    name='wacy_beer',
-    url='https://github.com/alejandroxag/wacky-beer-proj/',
+    name='wacky_beer',
+    url='https://github.com/alejandroxag/wacky-beer-proj/wacky_beer',
     author='Team Wacky',
     author_email='',
     # Needed to actually package something
