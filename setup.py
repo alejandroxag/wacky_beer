@@ -11,7 +11,7 @@ setup(
     # Needed for dependencies
     install_requires=['requests', 'bs4'],
     # Modules
-    py_modules = ['json', 'bs4.BeautifulSoup', 'requests'],
+    py_modules = ['json', 'requests'],
     # *strongly* suggested for sharing
     version='0.1.0',
     # The license can be anything you like
