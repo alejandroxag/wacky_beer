@@ -9,7 +9,7 @@ setup(
     # Needed to actually package something
     packages=['wacky_beer'],
     # Needed for dependencies
-    install_requires=[],
+    install_requires=['requests', 'BeautifulSoup', 'json'],
     # *strongly* suggested for sharing
     version='0.1.0',
     # The license can be anything you like
