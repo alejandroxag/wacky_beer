@@ -7,6 +7,7 @@
 import requests
 from bs4 import BeautifulSoup
 import json
+import re
 
 def beer_styles_urls():
     """ Scrapes all the urls corresponding to a beer style from the website craftbeer.com/styles
@@ -26,9 +27,14 @@ def bs_soup(url):
     """
     try:
         soup = BeautifulSoup(requests.get(url).content, 'html.parser')
-        bs_id = json.loads(soup.find(id = 'wpp-json').get_text())['ID']
+        json_script = str(soup.find(id = 'wpp-json'))
+        idx0 = re.search('(<script).*(>)', json_script).span()[1]
+        idx1 = re.search('(</script>)$', json_script).span()[0]
+        bs_id = json.loads(json_script[idx0:(idx1 - 1)])['ID']
         return bs_id, soup.find(id = f'post-{bs_id}')
-    except Exception as e: print(e)
+    except Exception as e:
+        print(e)
+        return None
 
 def bs_name(bs_soup):
     """ Scrapes the name of the beer style.
@@ -147,9 +153,3 @@ def bs_getinfo(url):
     """
     try: return {ft.upper():eval(f'bs_{ft}')(bs_soup(url)) for ft in ['name', 'desc', 'cat', 'color', 'ibu', 'pairings', 'glassware', 'temp', 'features', 'sugg']}
     except: return None
-
-# def main():
-#     with open('beer-styles-info.json','w') as f: json.dump({url[0]:dict([('url', url[1]), ('bs-info',bs_getinfo(url[1]))]) for url in beer_styles_urls()}, f, indent = 4)
-#     print('Process completed.')
-# if __name__ == "__main__": main()
-
