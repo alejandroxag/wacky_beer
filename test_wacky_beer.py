@@ -1,6 +1,11 @@
 import wacky_beer as wb
+import json
+import random
 
-urls = wb.beer_styles_urls()
-bs_id, fobj = wb.bs_soup(urls[0][1])
-print(bs_id)
-print(fobj)
+def main():
+    name, url = wb.beer_styles_urls()[random.randrange(0,81,1)]
+    print(name)
+    print(url)
+    print(wb.bs_getinfo(url))
+    # with open('beer-styles-info.json','w') as f: json.dump({url[0]:dict([('url', url[1]), ('bs-info',wb.bs_getinfo(url[1]))]) for url in wb.beer_styles_urls()}, f, indent = 4)
+if __name__ == "__main__": main()
