@@ -7,6 +7,7 @@
 import requests
 from bs4 import BeautifulSoup
 import json
+import re
 
 def beer_styles_urls():
     """ Scrapes all the urls corresponding to a beer style from the website craftbeer.com/styles
