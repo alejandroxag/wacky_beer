@@ -3,7 +3,7 @@ import json
 import random
 
 def main():
-    name, url = wb.beer_styles_urls()[random.randrange(0,81,1)]
+    name, url = wb.beer_styles_urls()[random.randrange(0,80,1)]
     print(name)
     print(url)
     print(wb.bs_getinfo(url))
