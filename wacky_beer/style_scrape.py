@@ -25,12 +25,16 @@ def bs_soup(url):
         Returns:
         (str, bs4.element.Tag): tuple containing the id and soup corresponding to the url's beer style.
     """
-    soup = BeautifulSoup(requests.get(url).content, 'html.parser')
-    json_script = str(soup.find(id = 'wpp-json'))
-    idx0 = re.search('(<script).*(>)', json_script).span()[1]
-    idx1 = re.search('(</script>)$', json_script).span()[0]
-    bs_id = json.loads(json_script[idx0:(idx1 - 1)])['ID']
-    return bs_id, soup.find(id = f'post-{bs_id}')
+    try:
+        soup = BeautifulSoup(requests.get(url).content, 'html.parser')
+        json_script = str(soup.find(id = 'wpp-json'))
+        idx0 = re.search('(<script).*(>)', json_script).span()[1]
+        idx1 = re.search('(</script>)$', json_script).span()[0]
+        bs_id = json.loads(json_script[idx0:(idx1 - 1)])['ID']
+        return bs_id, soup.find(id = f'post-{bs_id}')
+    except Exception as e:
+        print(e)
+        return None
 
 def bs_name(bs_soup):
     """ Scrapes the name of the beer style.
