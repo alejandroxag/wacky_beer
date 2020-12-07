@@ -34,7 +34,6 @@ def search(styleDic):
             print("Here is what we have for you for %s:" % (styleDic[resultList[userOption-1]][0]))
             return styleDic[resultList[userOption-1]]
 
-print(search(createDic()))
                 
             
         
