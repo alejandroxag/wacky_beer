@@ -1,81 +1,81 @@
 Web,Datafile,API
-American Amber Ale,,American-Style Amber/Red Ale
-American Amber Lager,,American Rye Ale or Lager
-American Barley Wine,,American-Style Barley Wine Ale
-American Black Ale,,American-Style India Black Ale
-American Brett,,
-American Brown Ale,,American-Style Brown Ale
-American Cream Ale,,American-Style Cream Ale or Lager
-American Imperial Porter,,Porter
-American Imperial Red Ale,,Imperial or Double Red Ale
-American Imperial Stout,,American-Style Imperial Stout
-American IPA,,American-Style India Pale Ale
-American Lager,,American-Style Lager
-American Pale Ale,,American-Style Pale Ale
-American Sour,,American-Style Dark Lager
-American Stout,,American-Style Stout
-American Wheat,,Light American Wheat Ale or Lager
-American-Style Wheat Wine Ale,,
-Baltic-Style Porter,,Baltic-Style Porter
+American Amber Ale,American Amber / Red Ale,American-Style Amber/Red Ale
+American Amber Lager,American Amber / Red Lager,American Rye Ale or Lager
+American Barley Wine,American Barleywine,American-Style Barley Wine Ale
+American Black Ale,American Black Ale,American-Style India Black Ale
+American Brett,American Brett,
+American Brown Ale,American Brown Ale,American-Style Brown Ale
+American Cream Ale,American Cream Ale,American-Style Cream Ale or Lager
+American Imperial Porter,American Imperial Porter,Porter
+American Imperial Red Ale,American Imperial Red Ale,Imperial or Double Red Ale
+American Imperial Stout,American Imperial Stout,American-Style Imperial Stout
+American IPA,American IPA,American-Style India Pale Ale
+American Lager,American Lager,American-Style Lager
+American Pale Ale,American Pale Ale (APA),American-Style Pale Ale
+American Sour,Wild/Sour Beers,American-Style Dark Lager
+American Stout,American Stout,American-Style Stout
+American Wheat,American Pale Wheat Ale,Light American Wheat Ale or Lager
+American-Style Wheat Wine Ale,American Wheatwine Ale,
+Baltic-Style Porter,Baltic Porter,Baltic-Style Porter
 Barrel-Aged Beer,,
-Belgian-Style Blonde Ale,,Other Belgian-Style Ales
-Belgian-Style Dubbel,,Belgian-Style Dubbel
-Belgian-Style Flanders,,Belgian-Style Dark Strong Ale
-Belgian-Style Fruit Lambic,,Belgian-Style Fruit Lambic
-Belgian-Style Golden Strong Ale,,Belgian-Style Pale Strong Ale
-Belgian-Style Lambic/Gueuze,,Other Belgian-Style Ales
-Belgian-Style Pale Ale,,Belgian-Style Pale Ale
-Belgian-Style Quadrupel,,Belgian-Style Quadrupel
-Belgian-Style Saison,,Other Belgian-Style Ales
-Belgian-Style Tripel,,Belgian-Style Tripel
-Belgian-Style Witbier,,Belgian-Style White
-Berliner-Style Weisse,,
-Blonde Ale,,Golden or Blonde Ale
-Bohemian-Style Pilsener,,
-British-Style Barley Wine Ale,,Strong Ale
-California Common,,
+Belgian-Style Blonde Ale,Belgian Blonde Ale,Other Belgian-Style Ales
+Belgian-Style Dubbel,Belgian Dubbel,Belgian-Style Dubbel
+Belgian-Style Flanders,Flanders Red Ale,Belgian-Style Dark Strong Ale
+Belgian-Style Fruit Lambic,Belgian Fruit Lambic,Belgian-Style Fruit Lambic
+Belgian-Style Golden Strong Ale,Belgian Strong Pale Ale,Belgian-Style Pale Strong Ale
+Belgian-Style Lambic/Gueuze,Belgian Lambic,Other Belgian-Style Ales
+Belgian-Style Pale Ale,Belgian Pale Ale,Belgian-Style Pale Ale
+Belgian-Style Quadrupel,Belgian Quadrupel (Quad),Belgian-Style Quadrupel
+Belgian-Style Saison,Belgian Saison,Other Belgian-Style Ales
+Belgian-Style Tripel,Belgian Tripel,Belgian-Style Tripel
+Belgian-Style Witbier,Belgian Witbier,Belgian-Style White
+Berliner-Style Weisse,Berliner Weisse,
+Blonde Ale,American Blonde Ale,Golden or Blonde Ale
+Bohemian-Style Pilsener,Bohemian Pilsener,
+British-Style Barley Wine Ale,British Barleywine,Strong Ale
+California Common,California Common / Steam Beer,
 Chocolate Beer,,Winter Warmer
 Coffee Beer,,
-Contemporary Gose,,
-English-Style Bitter,,Ordinary Bitter
-English-Style Brown Ale,,Extra Special Bitter
-English-Style Brown Porter,,English-Style Dark Mild Ale
-English-Style IPA,,English-Style India Pale Ale
-English-Style Mild,,English-Style Pale Mild Ale
-English-Style Oatmeal Stout,,Oatmeal Stout
-English-Style Old Ale,,Old Ale
-English-Style Pale Ale (ESB),,Extra Special Bitter
-English-Style Sweet Stout (Milk Stout),,Sweet Stout
-European-Style Export,,European Low-Alcohol Lager
-French-Style Biere de Garde,,French & Belgian-Style Saison
-Fruit and Field Beer,,Fruit Beer
-German-Style Altbier,,German-Style Brown Ale/Altbier
-German-Style Bock,,Traditional German-Style Bock
-German-Style Doppelbock,,German-Style Doppelbock
-German-Style Dunkel,,
-German-Style Dunkelweizen,,
-German-Style Hefeweizen,,South German-Style Hefeweizen
-German-Style Helles,,German-Style Heller Bock/Maibock
-German-Style Kolsch,,Kellerbier - Ale
-German-Style Maibock,,German-Style Heller Bock/Maibock
-German-Style Marzen / Oktoberfest,,German-Style Oktoberfest
-German-Style Pilsner,,German-Style Pilsener
-German-Style Schwarzbier,,German-Style Schwarzbier
-German-Style Weizenbock,,South German-Style Weizenbock
+Contemporary Gose,Leipzig Gose,
+English-Style Bitter,English Bitter,Ordinary Bitter
+English-Style Brown Ale,English Brown Ale,Extra Special Bitter
+English-Style Brown Porter,English Porter,English-Style Dark Mild Ale
+English-Style IPA,English India Pale Ale (IPA),English-Style India Pale Ale
+English-Style Mild,English Pale Mild Ale,English-Style Pale Mild Ale
+English-Style Oatmeal Stout,English Oatmeal Stout,Oatmeal Stout
+English-Style Old Ale,English Old Ale,Old Ale
+English-Style Pale Ale (ESB),English Pale Ale,Extra Special Bitter
+English-Style Sweet Stout (Milk Stout),English Sweet / Milk Stout,Sweet Stout
+European-Style Export,European Export / Dortmunder,European Low-Alcohol Lager
+French-Style Biere de Garde,French Bière de Garde,French & Belgian-Style Saison
+Fruit and Field Beer,Fruit and Field Beer,Fruit Beer
+German-Style Altbier,German Altbier,German-Style Brown Ale/Altbier
+German-Style Bock,German Bock,Traditional German-Style Bock
+German-Style Doppelbock,German Doppelbock,German-Style Doppelbock
+German-Style Dunkel,Munich Dunkel Lager,
+German-Style Dunkelweizen,German Dunkelweizen,
+German-Style Hefeweizen,German Hefeweizen,South German-Style Hefeweizen
+German-Style Helles,German Helles,German-Style Heller Bock/Maibock
+German-Style Kolsch,German Kölsch,Kellerbier - Ale
+German-Style Maibock,German Maibock,German-Style Heller Bock/Maibock
+German-Style Marzen / Oktoberfest,German Märzen / Oktoberfest,German-Style Oktoberfest
+German-Style Pilsner,German Pilsner,German-Style Pilsener
+German-Style Schwarzbier,German Schwarzbier,German-Style Schwarzbier
+German-Style Weizenbock,German Weizenbock,South German-Style Weizenbock
 Gluten-Free Craft Beer,,
-Herb and Spice Beer,,Herb and Spice Beer
+Herb and Spice Beer,Herb and Spice Beer,Herb and Spice Beer
 Honey Beer,,Specialty Honey Lager or Ale
-Imperial India Pale Ale,,Imperial or Double India Pale Ale
-Irish-Style Dry Stout,,Classic Irish-Style Dry Stout
-Irish-Style Red Beer,,Irish-Style Red Ale
-New England IPA,,American-Style Light Lager
-Pumpkin Beer,,Pumpkin Beer
-Robust Porter,,
-Rye Beer,,
-Scotch Ale/Wee Heavy,,Scotch Ale
-Scottish-Style Ale,,Scottish-Style Light Ale
+Imperial India Pale Ale,American Imperial IPA,Imperial or Double India Pale Ale
+Irish-Style Dry Stout,Irish Dry Stout,Classic Irish-Style Dry Stout
+Irish-Style Red Beer,Irish Red Ale,Irish-Style Red Ale
+New England IPA,New England IPA,American-Style Light Lager
+Pumpkin Beer,Pumpkin Beer,Pumpkin Beer
+Robust Porter,Robust Porter,
+Rye Beer,Rye Beer,
+Scotch Ale/Wee Heavy,Scotch Ale / Wee Heavy,Scotch Ale
+Scottish-Style Ale,Scottish Ale,Scottish-Style Light Ale
 Session Beer,,American-Style Strong Pale Ale
-Smoke Beer,,Smoke Beer
-Smoke Porter,,Bamberg-Style Bock Rauchbier
+Smoke Beer,Smoke Beer,Smoke Beer
+Smoke Porter,Smoke Porter,Bamberg-Style Bock Rauchbier
 Specialty Beer,,Specialty Beer
-Vienna-Style Lager,,Vienna-Style Lager
+Vienna-Style Lager,Vienna Lager,Vienna-Style Lager
