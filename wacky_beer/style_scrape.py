@@ -9,7 +9,7 @@ from bs4 import BeautifulSoup
 import json
 import re
 
-def beer_styles_urls():
+def bs_urls():
     """ Scrapes all the urls corresponding to a beer style from the website craftbeer.com/styles
         Parameters:
         Returns:
@@ -17,6 +17,8 @@ def beer_styles_urls():
     """
     soups = [soup.find() for soup in BeautifulSoup(requests.get('https://www.craftbeer.com/beer-styles').content, 'html.parser').find(id = 'styles').find_all(class_ = 'style')]
     return [(soup.find(class_ = 'caption-title').get_text().strip().upper(), soup.find(class_ = 'caption').find('a')['href']) for soup in soups]
+
+def bs_findurl(style_string, urls): return [url[1] for url in urls if url[0] == style_string.upper()]
 
 def bs_soup(url):
     """ Cooks the soup to scrape the beer style template.

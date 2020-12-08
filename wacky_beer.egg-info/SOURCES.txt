@@ -1,8 +1,12 @@
 setup.py
+wacky_beer/API.py
 wacky_beer/__init__.py
 wacky_beer/style_scrape.py
+wacky_beer/styles_match.py
+wacky_beer/test_program.py
 wacky_beer.egg-info/PKG-INFO
 wacky_beer.egg-info/SOURCES.txt
 wacky_beer.egg-info/dependency_links.txt
 wacky_beer.egg-info/requires.txt
 wacky_beer.egg-info/top_level.txt
+wacky_beer/data/beerstyles.csv
