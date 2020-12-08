@@ -68,7 +68,7 @@ def main():
             print('No Beer reviews founds for this style.')
         else:
             print('Top 5 beers reviewed of this style: ')
-            print(beer_reviews)
+            print(beer_reviews.to_string(index = False))
 
 if __name__ == '__main__': main()
 

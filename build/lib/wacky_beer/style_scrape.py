@@ -55,7 +55,12 @@ def bs_desc(bs_soup):
         Returns:
         (str): beer style description.
     """
-    try: return ' '.join([p.get_text() for p in bs_soup[1].find(class_ = 'entry-content').find_all('p')])
+    try:
+        desc = ' '.join([p.get_text() for p in bs_soup[1].find(class_ = 'entry-content').find_all('p')])
+        phrases = ['. use our', '. if you enjoy', '. the craftbeer.com']
+        idxs = [desc.lower().find(s) + 1 for s in phrases if desc.lower().find(s) > 0]
+        if len(idxs) > 0: return desc[:(min(idxs) + 1)]
+        else: return desc
     except: return None
 
 def bs_cat(bs_soup):
@@ -65,7 +70,7 @@ def bs_cat(bs_soup):
         Returns:
         (str): beer style category.
     """
-    try: return bs_soup[1].find(id = 'knowledge').find(class_ = 'section-title').find(class_ = 'popovers').get_text()
+    try: return bs_soup[1].find(id = 'knowledge').find(class_ = 'section-title').find(class_ = 'popovers').get_text().strip()
     except: return None
 
 def bs_color(bs_soup):
@@ -88,6 +93,16 @@ def bs_ibu(bs_soup):
     try: return bs_soup[1].find(id = 'sliders').find_all(class_ = 'slider-container')[1].find(class_ = 'below').get_text().split('(')[0].strip()
     except: return None
 
+def bs_abv(bs_soup):
+    """ Scrapes the ibu level of the beer style.
+        Parameters:
+        bs_soup (bs4.element.Tag): the second element of the tuple returned by bs_soup.
+        Returns:
+        (str): IBU-level range of the beer style.
+    """
+    try: return bs_soup[1].find(id = 'sliders').find_all(class_ = 'slider-container')[2].find(class_ = 'below').get_text().split('(')[0].strip()
+    except: return None
+
 def bs_pairings(bs_soup):
     """ Scrapes the food pairings for the beer style.
         Parameters:
@@ -106,7 +121,7 @@ def bs_glassware(bs_soup):
         (str, str): Tuple containing the type of glassware recomended and its description (type, description).
     """
     glass = bs_soup[1].find(id = 'learn').find(id = 'glassware').find(class_ = 'glass')
-    try: return glass.get_text().strip(), glass.find(class_ = 'popovers')['data-content'].strip()
+    try: return glass.get_text().strip(), glass.find(class_ = 'popovers')['data-content'].strip()[:-2].replace('.',';')
     except: return None
 
 def bs_temp(bs_soup):
@@ -153,5 +168,5 @@ def bs_getinfo(url):
         dict: Dictionary with different elements from the beer style as keys, and the corresponding information
         scraped with the info-scraping functions as values.
     """
-    try: return {ft.upper():eval(f'bs_{ft}')(bs_soup(url)) for ft in ['name', 'desc', 'cat', 'color', 'ibu', 'pairings', 'glassware', 'temp', 'features', 'sugg']}
+    try: return {ft.upper():eval(f'bs_{ft}')(bs_soup(url)) for ft in ['name', 'desc', 'cat', 'color', 'ibu', 'abv', 'pairings', 'glassware', 'temp', 'features', 'sugg']}
     except: return None
