@@ -11,6 +11,8 @@ def fetchBrew(style):
         data = json.loads(response.content.decode('utf-8'))
         if 'nhits' in data:
             count = data['nhits']
+            if count > 300:
+                count = 300
             beerList = list()
             for i in range(0,count):
                 records = dict(data['records'][i])
