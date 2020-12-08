@@ -44,20 +44,24 @@ def main():
         for k in style_info['FEATURES'].keys():
             print(f'\n{k.title()}')
             for k2 in style_info['FEATURES'][k]: print(f'\t{k2.title()}: {style_info["FEATURES"][k][k2].lower()}')
-        
-        state = input('Enter a state: ')
-        breweryList = wb.findBrewery(style_match[2], state)
-        for line in breweryList:
-            Name, Style, Category, Brewery, Country, State, City, Address = line
-            print('Beer Name: ' + Name)
-            print('Style: ' + Style)
-            print('Category: ' + Category)
-            print('Brewery: ' + Brewery)
-            print('Country: ' + Country)
-            print('State: ' + State)
-            print('City: ' + City)
-            print('Address: ' + Address)
-            print()
+
+        if style_match[2] == '': print('\nThere is no breweries information for this beer style.')
+        else:
+            state = input('Enter a state: ')
+            breweryList = wb.findBrewery(style_match[2], state)
+            if len(breweryList) == 0: print('\nWe couldn\'t find any brewery matching this beer style in the state you chose.')
+            else:
+                for line in breweryList:
+                    Name, Style, Category, Brewery, Country, State, City, Address = line
+                    print('Beer Name: ' + Name)
+                    print('Style: ' + Style)
+                    print('Category: ' + Category)
+                    print('Brewery: ' + Brewery)
+                    print('Country: ' + Country)
+                    print('State: ' + State)
+                    print('City: ' + City)
+                    print('Address: ' + Address)
+                    print()
 
         beer_reviews = wb.fetchBeerReviews(style_match, 5)
         if beer_reviews.empty:
