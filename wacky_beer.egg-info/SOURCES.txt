@@ -10,4 +10,5 @@ wacky_beer.egg-info/SOURCES.txt
 wacky_beer.egg-info/dependency_links.txt
 wacky_beer.egg-info/requires.txt
 wacky_beer.egg-info/top_level.txt
+wacky_beer/data/beer_merged_data.csv
 wacky_beer/data/beerstyles.csv
