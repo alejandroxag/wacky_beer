@@ -15,6 +15,7 @@ setup(
     # The license can be anything you like
     license='MIT',
     description='Group Project for the Data Focused Python Course. Beer information retrieval application.',
+    package_data={'': ['data/*.csv']},
     # We will also need a readme eventually (there will be a warning)
     # long_description=open('README.txt').read(),
 )

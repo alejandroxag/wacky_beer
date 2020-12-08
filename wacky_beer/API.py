@@ -34,55 +34,26 @@ def fetchBrew(style):
                 beerList.append([Name,Style,Category,Brewery,Country,State,City,Address])
     return beerList
 
-#style_name = 'Porter'
-#fetchBrew(style_name)
 
-
-
-
-#display the full list of beer in a formated table of selected style
-def displayAll(style):
+def findBrewery(style,city,state):
     beerList = fetchBrew(style)
-    for line in beerList:
-        Name,Style,Category,Brewery,Country,State,City,Address = line
-        print('Beer Name: '+Name)
-        print('Style: '+Style)
-        print('Category: '+Category)
-        print('Brewery: '+Brewery)
-        print('Country: '+Country)
-        print('State: '+State)
-        print('City: '+City)
-        print('Address: '+ Address)
-        print()
-
-#style_name = 'Strong+Ale'  
-#displayAll(style_name)
-
-
-#find specific brewery based on user's choice of state and city
-#need to work on the limit of return 
-def findBrewery(style):
-    beerList = fetchBrew(style)
-    state = input('Enter a state: ')
-    city = input('Enter a city: ')
+    breweryList = list()
     for line in beerList:
         Name,Style,Category,Brewery,Country,State,City,Address = line
         #count = 0
         if state in line:
             if city in line:
+                breweryList.append([Name,Style,Category,Brewery,Country,State,City,Address])
                 #while count < 6:
-                print('Beer Name: '+Name)
-                print('Style: '+Style)
-                print('Category: '+Category)
-                print('Brewery: '+Brewery)
-                print('Country: '+Country)
-                print('State: '+State)
-                print('City: '+City)
-                print('Address: '+ Address)
-                print()
-                #count += 1
-            
-style_name = 'Strong+Ale'    
-findBrewery(style_name)
+    return breweryList
+
+
+def main(style):
+    beerList = fetchBrew(style)
+
+
+if __name__ == '__main__':
+    main()   
+
 
 
