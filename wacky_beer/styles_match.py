@@ -15,5 +15,5 @@ def bs_search(styleDic, style):
     resultList = list()
     for key in styleDic:
         if style.upper() in key.upper(): resultList.append(key)
-    if len(resultList) == 0: return resultList, None
+    if len(resultList) == 0: return resultList, []
     else: return resultList, [styleDic[st] for st in resultList]
