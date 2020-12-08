@@ -40,8 +40,7 @@ def findBrewery(style, state):
     breweryList = list()
     for line in beerList:
         Name,Style,Category,Brewery,Country,State,City,Address = line
-        #count = 0
-        if state in line:
+        if state.upper() in State.upper():
             breweryList.append([Name,Style,Category,Brewery,Country,State,City,Address])
     return breweryList
 
