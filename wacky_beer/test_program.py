@@ -28,10 +28,10 @@ def main():
 
         try:
             print(
-                f'\nThe style you chose is {style_info["NAME"]}. This beer style belons to the group of {style_info["CAT"]}. '
+                f'\nThe style you chose is {style_info["NAME"]}. This beer style belongs to the group of {style_info["CAT"]}. '
                 f'This type of beer is characterized for its {style_info["FEATURES"]["APPEARANCE"]["COLOR"].lower()} color '
                 f'({style_info["COLOR"][:(style_info["COLOR"].find(" SRM"))]} in the SRM scale), its '
-                f'{"low" if int(style_info["IBU"][3:5]) < 100 / 3 else ("medium" if int(style_info["IBU"][3:5]) < 200 / 3 else "high")} bitterness flavor, ({style_info["IBU"]}) '
+                f'{"low" if int(style_info["IBU"][3:5]) < 100 / 3 else ("medium" if int(style_info["IBU"][3:5]) < 200 / 3 else "high")} bitterness flavor ({style_info["IBU"]}) '
                 f'and its {"light" if 0.5 * (float(style_info["ABV"][0:3]) + float(style_info["ABV"][4:7])) < 5.5 else ("medium" if 0.5 * (float(style_info["ABV"][0:3]) + float(style_info["ABV"][4:7])) < 11.0 else "high")} alcoholic volume '
                 f'({style_info["ABV"]}). The ideal way to taste this type of beer is at a {style_info["TEMP"]} temperature, in a {style_info["GLASSWARE"][0].lower()} glass '
                 f'({style_info["GLASSWARE"][1].lower()}).\n'
@@ -64,9 +64,9 @@ def main():
             breweryList = wb.findBrewery(style_match[2], state)
             if len(breweryList) == 0: print('\nWe couldn\'t find any brewery matching this beer style in the state you chose.')
             else:
+                print(f'\nHere are some beers so might find in {state.title()}:\n')
                 for line in breweryList:
                     Name, Style, Category, Brewery, Country, State, City, Address = line
-                    print(f'\nHere are some beers so might find in {state.title()}:\n')
                     print('Beer Name: ' + Name)
                     print('Style: ' + Style)
                     print('Category: ' + Category)
@@ -79,9 +79,9 @@ def main():
 
         beer_reviews = wb.fetchBeerReviews(style_match, 5)
         if beer_reviews.empty:
-            print('No Beer reviews founds for this style.')
+            print('\nNo beer reviews found for this style.')
         else:
-            print('Top 5 beers reviewed of this style: ')
+            print('\nTop 5 beers reviewed of this style: ')
             print(beer_reviews.to_string(index = False))
 
 if __name__ == '__main__': main()
