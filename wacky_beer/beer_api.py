@@ -46,3 +46,13 @@ def findBrewery(style, state):
             breweryList.append([Name,Style,Category,Brewery,Country,State,City,Address])
     return breweryList
 
+
+def findCityBrewery(style, state,city):
+    breweryList = findBrewery(style, state)
+    breweryCityList = list()
+    for line in breweryList:
+        Name,Style,Category,Brewery,Country,State,City,Address = line
+        if city.upper() in City.upper(): 
+            breweryCityList.append( [Name,Style,Category,Brewery,Country,State,City,Address] )
+    return breweryCityList
+
