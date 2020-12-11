@@ -1,0 +1,81 @@
+,best_match_score,__id_left,__id_right,Craft_Beer_Styles,style
+0,0.2358429175895665,American Amber Ale,American Amber / Red Ale,American Amber Ale,American Amber / Red Ale
+1,0.31843611295673696,American Amber Lager,American Amber / Red Lager,American Amber Lager,American Amber / Red Lager
+2,-0.10965103901736602,American Barley Wine,American Lager,American Barley Wine,American Lager
+29,0.315657973617107,American Black Ale,American Black Ale,American Black Ale,American Black Ale
+30,0.22772199017939207,American Brett,American Brett,American Brett,American Brett
+31,0.2897195986043189,American Brown Ale,American Brown Ale,American Brown Ale,American Brown Ale
+32,0.315657973617107,American Cream Ale,American Cream Ale,American Cream Ale,American Cream Ale
+33,0.3093976734258849,American Imperial Porter,American Imperial Porter,American Imperial Porter,American Imperial Porter
+34,0.38670836477611953,American Imperial Red Ale,American Imperial Red Ale,American Imperial Red Ale,American Imperial Red Ale
+35,0.30106842431866493,American Imperial Stout,American Imperial Stout,American Imperial Stout,American Imperial Stout
+36,0.1895177223234508,American IPA,American IPA,American IPA,American IPA
+39,0.22872602751062085,American Lager,American Lager,American Lager,American Lager
+43,0.18244091787863442,American Pale Ale,American Pale Wheat Ale,American Pale Ale,American Pale Wheat Ale
+45,-0.021864569249005004,American Sour,Wild/Sour Beers,American Sour,Wild/Sour Beers
+73,0.18342003287058456,American Stout,American Stout,American Stout,American Stout
+75,0.20042714821244473,American-Style Wheat Wine Ale,American Pale Wheat Ale,American-Style Wheat Wine Ale,American Pale Wheat Ale
+77,0.1304464768980045,American Wheat,American Pale Wheat Ale,American Wheat,American Pale Wheat Ale
+79,0.26196616475524204,Baltic-Style Porter,Baltic Porter,Baltic-Style Porter,Baltic Porter
+80,-0.1282802523024279,Barrel-Aged Beer,Smoke Beer,Barrel-Aged Beer,Smoke Beer
+88,0.3346768157905585,Belgian-Style Blonde Ale,Belgian Blonde Ale,Belgian-Style Blonde Ale,Belgian Blonde Ale
+89,0.28271354055443104,Belgian-Style Dubbel,Belgian Dubbel,Belgian-Style Dubbel,Belgian Dubbel
+90,-0.013638420410842516,Belgian-Style Flanders,Flanders Red Ale,Belgian-Style Flanders,Flanders Red Ale
+107,0.4121013492728902,Belgian-Style Fruit Lambic,Belgian Fruit Lambic,Belgian-Style Fruit Lambic,Belgian Fruit Lambic
+108,0.22287960809321308,Belgian-Style Golden Strong Ale,Belgian Strong Pale Ale,Belgian-Style Golden Strong Ale,Belgian Strong Pale Ale
+110,0.17959948438235654,Belgian-Style Lambic/Gueuze,Belgian Lambic,Belgian-Style Lambic/Gueuze,Belgian Lambic
+112,0.29453948303536104,Belgian-Style Pale Ale,Belgian Pale Ale,Belgian-Style Pale Ale,Belgian Pale Ale
+114,0.19966815075995525,Belgian-Style Quadrupel,Belgian Quadrupel (Quad),Belgian-Style Quadrupel,Belgian Quadrupel (Quad)
+115,0.28271354055443104,Belgian-Style Saison,Belgian Saison,Belgian-Style Saison,Belgian Saison
+116,0.28271354055443104,Belgian-Style Tripel,Belgian Tripel,Belgian-Style Tripel,Belgian Tripel
+117,0.3691932922336119,Belgian-Style Witbier,Belgian Witbier,Belgian-Style Witbier,Belgian Witbier
+118,0.40032266645999914,Berliner-Style Weisse,Berliner Weisse,Berliner-Style Weisse,Berliner Weisse
+119,0.5915114705411644,French-Style Biere de Garde,French Bière de Garde,French-Style Biere de Garde,French Bière de Garde
+120,0.18615515238727462,Blonde Ale,American Blonde Ale,Blonde Ale,American Blonde Ale
+122,0.2979388729568295,Bohemian-Style Pilsener,Bohemian Pilsener,Bohemian-Style Pilsener,Bohemian Pilsener
+123,-0.09703194624897307,British-Style Barley Wine Ale,British Barleywine,British-Style Barley Wine Ale,British Barleywine
+153,0.20306250292475989,California Common,California Common / Steam Beer,California Common,California Common / Steam Beer
+154,-0.04829112825305996,Chocolate Beer,Smoke Beer,Chocolate Beer,Smoke Beer
+162,-0.04829112825305996,Coffee Beer,Smoke Beer,Coffee Beer,Smoke Beer
+170,-0.0035437055589864234,Contemporary Gose,Leipzig Gose,Contemporary Gose,Leipzig Gose
+171,0.26885966485171675,English-Style Bitter,English Bitter,English-Style Bitter,English Bitter
+173,0.3350218978302536,English-Style Brown Ale,English Brown Ale,English-Style Brown Ale,English Brown Ale
+174,0.16404052459806284,English-Style Brown Porter,English Porter,English-Style Brown Porter,English Porter
+175,0.1757487761239392,English-Style Mild,English Pale Mild Ale,English-Style Mild,English Pale Mild Ale
+177,0.06453345166232152,English-Style IPA,English India Pale Ale (IPA),English-Style IPA,English India Pale Ale (IPA)
+178,0.39824747357017587,English-Style Oatmeal Stout,English Oatmeal Stout,English-Style Oatmeal Stout,English Oatmeal Stout
+179,0.345056231019053,English-Style Old Ale,English Old Ale,English-Style Old Ale,English Old Ale
+180,0.21770888391576973,English-Style Pale Ale (ESB),English Pale Ale,English-Style Pale Ale (ESB),English Pale Ale
+183,0.644218033534214,English-Style Sweet Stout (Milk Stout),English Sweet / Milk Stout,English-Style Sweet Stout (Milk Stout),English Sweet / Milk Stout
+184,0.17059152585354628,European-Style Export,European Export / Dortmunder,European-Style Export,European Export / Dortmunder
+185,0.5513733936085786,Fruit and Field Beer,Fruit and Field Beer,Fruit and Field Beer,Fruit and Field Beer
+186,0.27727777432217177,German-Style Bock,German Bock,German-Style Bock,German Bock
+187,0.36375752600135264,German-Style Altbier,German Altbier,German-Style Altbier,German Altbier
+188,0.27727777432217177,German-Style Doppelbock,German Doppelbock,German-Style Doppelbock,German Doppelbock
+189,-0.03047009869698985,German-Style Dunkel,Munich Dunkel Lager,German-Style Dunkel,Munich Dunkel Lager
+207,0.36375752600135264,German-Style Dunkelweizen,German Dunkelweizen,German-Style Dunkelweizen,German Dunkelweizen
+208,0.36375752600135264,German-Style Hefeweizen,German Hefeweizen,German-Style Hefeweizen,German Hefeweizen
+209,0.27727777432217177,German-Style Maibock,German Maibock,German-Style Maibock,German Maibock
+210,0.27727777432217177,German-Style Helles,German Helles,German-Style Helles,German Helles
+211,0.194232384527696,German-Style Kolsch,German Kölsch,German-Style Kolsch,German Kölsch
+228,0.36375752600135264,German-Style Marzen / Oktoberfest,German Märzen / Oktoberfest,German-Style Marzen / Oktoberfest,German Märzen / Oktoberfest
+229,0.25133939930938365,German-Style Pilsner,German Pilsner,German-Style Pilsner,German Pilsner
+230,0.36375752600135264,German-Style Schwarzbier,German Schwarzbier,German-Style Schwarzbier,German Schwarzbier
+231,0.36375752600135264,German-Style Weizenbock,German Weizenbock,German-Style Weizenbock,German Weizenbock
+232,-0.20826937635179585,Gluten-Free Craft Beer,Smoke Beer,Gluten-Free Craft Beer,Smoke Beer
+240,0.5873461018101661,Herb and Spice Beer,Herb and Spice Beer,Herb and Spice Beer,Herb and Spice Beer
+241,-0.04829112825305996,Honey Beer,Smoke Beer,Honey Beer,Smoke Beer
+249,0.17484420932329808,Imperial India Pale Ale,English India Pale Ale (IPA),Imperial India Pale Ale,English India Pale Ale (IPA)
+256,0.4030933907440799,Irish-Style Dry Stout,Irish Dry Stout,Irish-Style Dry Stout,Irish Dry Stout
+257,0.1599350680215634,Irish-Style Red Beer,Irish Red Ale,Irish-Style Red Beer,Irish Red Ale
+266,0.5409468664202208,New England IPA,New England IPA,New England IPA,New England IPA
+267,0.27423419387564096,Pumpkin Beer,Pumpkin Beer,Pumpkin Beer,Pumpkin Beer
+268,0.28717353292173703,Robust Porter,Robust Porter,Robust Porter,Robust Porter
+269,0.27423419387564096,Rye Beer,Rye Beer,Rye Beer,Rye Beer
+270,0.6670871177138771,Scotch Ale/Wee Heavy,Scotch Ale / Wee Heavy,Scotch Ale/Wee Heavy,Scotch Ale / Wee Heavy
+271,0.19628104854328912,Scottish-Style Ale,Scottish Ale,Scottish-Style Ale,Scottish Ale
+273,-0.04829112825305996,Session Beer,Smoke Beer,Session Beer,Smoke Beer
+281,0.3306109459884238,Smoke Beer,Smoke Beer,Smoke Beer,Smoke Beer
+282,0.34355028503451984,Smoke Porter,Smoke Porter,Smoke Porter,Smoke Porter
+283,-0.04829112825305996,Specialty Beer,Smoke Beer,Specialty Beer,Smoke Beer
+291,0.29894291028805836,Vienna-Style Lager,Vienna Lager,Vienna-Style Lager,Vienna Lager

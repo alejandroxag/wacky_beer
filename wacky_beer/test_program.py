@@ -9,12 +9,14 @@ def main():
         if userInput.upper()=='QUIT':
             break
         while True:
+            if userInput.upper() == 'QUIT':
+                exit()
             rl = wb.bs_search(styles_table, userInput)
             if len(rl[1]) == 1:
                 print("Here is what we have for you for %s:" % (rl[1][0][0]))
                 style_match = rl[1][0]
                 break
-            if len(rl[1]) == 0: userInput = input("Beer style not found. Please enter a different option: ")
+            if len(rl[1]) == 0: userInput = input("Beer style not found. Please enter a different option (type QUIT to quit): ")
             else:
                 for i, result in enumerate(rl[1]):
                     print("%d. %s" % (i + 1, result))
